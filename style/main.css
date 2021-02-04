@@ -1,0 +1,136 @@
+
+/* Дефолтные стили */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Стилизующие классы элементов секции*/
+ .section-title {
+    margin-bottom: 30px;
+    padding-top: 107px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #212121;
+}
+
+.line {
+    width: 64px;
+    height: 2px;
+    margin: 0 auto 30px;
+    border: none;
+}
+
+.line-orange {
+    background: #FF8B38;
+}
+
+.line-white {
+    background: white
+}
+
+.color-grey {
+    color: #868788;
+}
+
+.color-white {
+    color: white;
+}
+
+.color-fogging {
+    opacity: 0.8;
+}
+
+/* Основной контент */
+.main {
+    margin: 40px 0 107px;
+    font-size: 0;
+}
+
+.card {
+    display: inline-block;
+    width: 350px;
+    margin: 0 16px;
+}
+
+.subtext {
+    padding-bottom: 40px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.subtitle {
+   font-weight: 700; 
+   font-size: 20px;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    margin: 0% auto 29px;
+    border: 1px solid orange;
+    border-radius: 50%;
+}
+
+.logo-lamp {
+    background-image: url(../img/lamp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo-keyboard {
+    background-image: url(../img/keyboard.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo-lightning {
+    background-image: url(../img/lightning.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.background-section {
+    height: 326px;
+    background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),url(../img/background.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+/* Стилизация подвала сайта */
+footer {
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.button {
+    width:135px;
+    height:42px;
+    margin: 40px;
+    border: 1px solid white;
+    background: transparent;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.social-icon{
+    width: 317px;
+    height: 23px;
+    margin: 0 auto 30px;
+    border: none;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.5;
+}
